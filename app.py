@@ -163,11 +163,12 @@ fig3 = px.bar(
     category_orders={"Outcome": order},
     color_discrete_sequence=["#4C72B0", "#DD8452", "#55A868", "#C44E52"],
     title="Harm outcome by physical-object involvement (% within group)",
-    labels={"Percent": "% of incidents within group"}
+    labels={"Percent": "% of incidents within group"},
+    barmode="group" 
 )
 fig3.update_layout(
     height=450,
-    yaxis=dict(range=[0, 100]),
+    yaxis=dict(range=[0, 75]),
     legend=dict(title="Harm outcome", orientation="h", y=-0.2)
 )
 st.plotly_chart(fig3, use_container_width=True)

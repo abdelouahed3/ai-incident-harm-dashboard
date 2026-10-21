@@ -1,0 +1,11 @@
+streamlit
+pandas
+plotly
+numpy
+statsmodels
+scipy
+psycopg2-binary
+matplotlib
+seaborn
+apify-client
+python-dotenv

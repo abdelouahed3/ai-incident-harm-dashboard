@@ -4,7 +4,7 @@
 
 End-to-end analysis of 990 real AI incidents from the [AI Incident Database](https://incidentdatabase.ai/), using Python, PostgreSQL, statsmodels, and Streamlit.
 
-**Live dashboard:** *(added after deployment)*
+**Live dashboard:** *(https://ai-incident-harm-dashboard-tomblavtg7xaw6p8wj3oql.streamlit.app/)*
 
 ---
 
